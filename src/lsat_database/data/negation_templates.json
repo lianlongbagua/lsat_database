@@ -1,0 +1,158 @@
+{
+    "subjects": {
+        "legal": [
+            "defendants",
+            "statutes",
+            "contracts",
+            "jurors",
+            "verdicts",
+            "regulations",
+            "witnesses",
+            "adjudicators"
+        ],
+        "science": [
+            "hypotheses",
+            "species",
+            "specimens",
+            "reactions",
+            "theories",
+            "observations",
+            "correlations",
+            "variables"
+        ],
+        "policy": [
+            "reforms",
+            "tariffs",
+            "subsidies",
+            "policies",
+            "constituents",
+            "negotiations",
+            "treaties",
+            "elections"
+        ],
+        "abstract": [
+            "assumptions",
+            "principles",
+            "methods",
+            "biases",
+            "consequences",
+            "alternatives",
+            "paradoxes"
+        ]
+    },
+    "predicates": {
+        "legal": [
+            "enforceable",
+            "admissible",
+            "binding",
+            "overruled",
+            "unconstitutional",
+            "implied",
+            "codified",
+            "litigated"
+        ],
+        "science": [
+            "observable",
+            "falsifiable",
+            "statistically significant",
+            "reproducible",
+            "anomalous",
+            "causal",
+            "correlated"
+        ],
+        "policy": [
+            "equitable",
+            "fiscally responsible",
+            "implemented",
+            "vetoed",
+            "bipartisan",
+            "controversial",
+            "effective"
+        ],
+        "abstract": [
+            "sufficient",
+            "necessary",
+            "valid",
+            "sound",
+            "consistent",
+            "ambiguous",
+            "redundant"
+        ]
+    },
+    "quantifiers": [
+        {
+            "type": "all_pos",
+            "template": "All {S} are {P}",
+            "negation": "Some {S} are NOT {P}",
+            "difficulty": "easy"
+        },
+        {
+            "type": "some_pos",
+            "template": "Some {S} are {P}",
+            "negation": "No {S} are {P}",
+            "difficulty": "easy"
+        },
+        {
+            "type": "none",
+            "template": "No {S} are {P}",
+            "negation": "Some {S} are {P}",
+            "difficulty": "easy"
+        },
+        {
+            "type": "most_pos",
+            "template": "Most {S} are {P}",
+            "negation": "Half or fewer {S} are {P} (Not most)",
+            "difficulty": "easy"
+        },
+        {
+            "type": "all_and",
+            "template": "All {S} are {P} and {Q}",
+            "negation": "Some {S} are NOT {P} OR NOT {Q}",
+            "difficulty": "hard"
+        },
+        {
+            "type": "some_or",
+            "template": "Some {S} are {P} or {Q}",
+            "negation": "No {S} are {P} AND No {S} are {Q}",
+            "difficulty": "hard"
+        },
+        {
+            "type": "conditional",
+            "template": "If {S} are {P}, then they must be {Q}",
+            "negation": "{S} could be {P} WITHOUT being {Q} (Counterexample)",
+            "difficulty": "hard"
+        },
+        {
+            "type": "only_if",
+            "template": "{S} are {P} only if they are {Q}",
+            "negation": "{S} could be {P} even if they are NOT {Q}",
+            "difficulty": "hard"
+        }
+    ],
+    "modals": [
+        {
+            "type": "must",
+            "template": "It is undeniably true that {S} are {P}",
+            "negation": "It is NOT necessarily true that {S} are {P} (Could be false)",
+            "difficulty": "hard"
+        },
+        {
+            "type": "could",
+            "template": "It is possible for {S} to be {P}",
+            "negation": "It is IMPOSSIBLE for {S} to be {P}",
+            "difficulty": "easy"
+        },
+        {
+            "type": "contingent",
+            "template": "{S} will inevitably be {P}",
+            "negation": "{S} need not be {P} (Might not be)",
+            "difficulty": "easy"
+        },
+        {
+            "type": "implication",
+            "template": "That {S} are {P} implies that {Q} are {P}",
+            "negation": "{S} could be {P} even if {Q} are NOT {P} (Implication fails)",
+            "difficulty": "hard"
+        }
+    ]
+}

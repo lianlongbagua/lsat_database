@@ -1,0 +1,434 @@
+{
+    "rc": {
+        "topics": [
+            {
+                "code": "TR",
+                "name": "Rehabilitation",
+                "name_cn": "平反/重评",
+                "description": "The passage discusses a person, group, or work that was historically ignored, undervalued, or misunderstood, with the author's goal being to correct the record.",
+                "indicators": [
+                    "Long neglected",
+                    "Underestimated",
+                    "Re-evaluation",
+                    "Actually complex"
+                ]
+            },
+            {
+                "code": "TP",
+                "name": "Phenomenon",
+                "name_cn": "现象/机制",
+                "description": "The passage introduces a natural puzzle (a phenomenon) and discusses hypotheses to explain it, focusing on mechanisms rather than opinions.",
+                "indicators": [
+                    "Biologists have long puzzled",
+                    "Recent data suggests",
+                    "Mechanism",
+                    "Hypothesis"
+                ]
+            },
+            {
+                "code": "TC",
+                "name": "Critique",
+                "name_cn": "制度/理论批判",
+                "description": "The passage analyzes a broad system (often Law or Economics), identifying a major flaw or proposing a reform.",
+                "indicators": [
+                    "Standard theory",
+                    "Fails to account for",
+                    "Prescriptive",
+                    "Legal Realism"
+                ]
+            }
+        ],
+        "structures": [
+            {
+                "code": "SD",
+                "name": "Debate",
+                "name_cn": "辩论/冲突",
+                "description": "The passage centers on a conflict between two opposing viewpoints (A vs. B), with the author usually picking a side or synthesizing them.",
+                "indicators": [
+                    "Traditionally",
+                    "However",
+                    "Critics argue",
+                    "In contrast"
+                ]
+            },
+            {
+                "code": "SE",
+                "name": "Explanation",
+                "name_cn": "问题/解决",
+                "description": "There is no central conflict; instead, a mystery or question is presented followed by a factual explanation (Mystery -> Solution).",
+                "indicators": [
+                    "One explanation is",
+                    "The primary cause",
+                    "Consequently",
+                    "The reason for"
+                ]
+            },
+            {
+                "code": "ST",
+                "name": "Thesis",
+                "name_cn": "论点/论据",
+                "description": "The author presents a single strong opinion or descriptive account and piles on evidence to support it without a significant opponent.",
+                "indicators": [
+                    "This demonstrates",
+                    "For example",
+                    "Furthermore",
+                    "Indeed"
+                ]
+            }
+        ],
+        "difficulty": [
+            {
+                "level": 1,
+                "name": "Low (Easy)",
+                "name_cn": "简单",
+                "description": "Clear main point, standard vocabulary, distinct viewpoints. Accuracy >75%.",
+                "description_cn": "原文直接提取，结构透明。全球正确率 >75%。"
+            },
+            {
+                "level": 2,
+                "name": "Medium",
+                "name_cn": "中等",
+                "description": "Standard LSAT density, some technical jargon, subtle author opinion. Accuracy 40%-75%.",
+                "description_cn": "涉及信息综合或次级推理。正确率 40%-75%。"
+            },
+            {
+                "level": 3,
+                "name": "High (Hard)",
+                "name_cn": "难题",
+                "description": "Abstract philosophy/science, non-linear structure, nuanced answer choices. Accuracy <40%.",
+                "description_cn": "抽象主题，密集长难句或强干扰项。正确率 <40%。"
+            }
+        ]
+    },
+    "lr": {
+        "task_codes": [
+            {
+                "code": "AG",
+                "name": "Argument",
+                "description": "Critique reasoning, manipulate (Strengthen/Weaken), parallel flaw."
+            },
+            {
+                "code": "ST",
+                "name": "Structure",
+                "description": "Describe method, find main point, parallel reasoning."
+            },
+            {
+                "code": "SA",
+                "name": "Sufficient",
+                "description": "Missing premise guarantees conclusion (100% valid)."
+            },
+            {
+                "code": "NA",
+                "name": "Necessary",
+                "description": "Requirement that must be true (The Shield)."
+            },
+            {
+                "code": "PI",
+                "name": "Issue",
+                "description": "Point at issue / Disagreement."
+            },
+            {
+                "code": "IN",
+                "name": "Inference",
+                "description": "Must be true, most strongly supported, no argument."
+            },
+            {
+                "code": "RP",
+                "name": "Paradox",
+                "description": "Resolve discrepancy/paradox."
+            }
+        ],
+        "detailed_task_codes": [
+            {
+                "code": "SR",
+                "name": "Strengthen",
+                "family": "Help & Hurt",
+                "description": "Add a premise that makes the conclusion more likely to be true.",
+                "indicators": [
+                    "Strengthens",
+                    "Provides the most support for",
+                    "Most strongly supports",
+                    "Helps the argument"
+                ]
+            },
+            {
+                "code": "WE",
+                "name": "Weaken",
+                "family": "Help & Hurt",
+                "description": "Add a premise that makes the conclusion less likely to be true.",
+                "indicators": [
+                    "Most undermines",
+                    "Calls into question",
+                    "Casts doubt",
+                    "Counters"
+                ]
+            },
+            {
+                "code": "SA",
+                "name": "Sufficient Assumption",
+                "family": "Assumption",
+                "description": "Add a premise that logically guarantees the conclusion (100% validity).",
+                "indicators": [
+                    "Follows logically if",
+                    "Properly drawn if",
+                    "Justify the conclusion",
+                    "Enables the conclusion"
+                ]
+            },
+            {
+                "code": "NA",
+                "name": "Necessary Assumption",
+                "family": "Assumption",
+                "description": "Identify a requirement that must be true for the argument to hold.",
+                "indicators": [
+                    "Depends on",
+                    "Required",
+                    "Relies on",
+                    "Unless",
+                    "Assumption required"
+                ]
+            },
+            {
+                "code": "FL",
+                "name": "Flaw",
+                "family": "Error",
+                "description": "Abstractly describe the logical error in the reasoning.",
+                "indicators": [
+                    "Vulnerable to criticism",
+                    "Flawed reasoning",
+                    "Error in reasoning"
+                ]
+            },
+            {
+                "code": "PF",
+                "name": "Parallel Flaw",
+                "family": "Error",
+                "description": "Identify an answer choice that commits the exact same logical error as the stimulus.",
+                "indicators": [
+                    "Flawed pattern of reasoning",
+                    "Most similar to the flawed reasoning"
+                ]
+            },
+            {
+                "code": "PR",
+                "name": "Parallel Reasoning",
+                "family": "Structure & Match",
+                "description": "Match the logical structure of a valid or neutral argument.",
+                "indicators": [
+                    "Pattern of reasoning is most similar to",
+                    "Parallel to",
+                    "Matches the reasoning"
+                ]
+            },
+            {
+                "code": "MP",
+                "name": "Main Point",
+                "family": "Structure & Match",
+                "description": "Identify the main conclusion of the argument.",
+                "indicators": [
+                    "Main point",
+                    "Conclusion of the argument",
+                    "Accurately expresses the conclusion"
+                ]
+            },
+            {
+                "code": "RO",
+                "name": "Role",
+                "family": "Structure & Match",
+                "description": "Describe the specific function of a single statement within the argument.",
+                "indicators": [
+                    "Plays which one of the following roles",
+                    "figures in the argument as",
+                    "The reference to X serves to"
+                ]
+            },
+            {
+                "code": "ME",
+                "name": "Method",
+                "family": "Structure & Match",
+                "description": "Describe the abstract argumentative technique or strategy used in the entire argument.",
+                "indicators": [
+                    "Proceeds by",
+                    "Technique",
+                    "Argumentative strategy",
+                    "Responds by"
+                ]
+            },
+            {
+                "code": "PI",
+                "name": "Point at Issue",
+                "family": "Structure & Match",
+                "description": "Identify the specific statement that two speakers disagree on.",
+                "indicators": [
+                    "Point at issue",
+                    "Disagree over",
+                    "Commit to disagreeing"
+                ]
+            },
+            {
+                "code": "IN",
+                "name": "Inference",
+                "family": "Fact & Puzzle",
+                "description": "Identify what must be true based strictly on the facts provided.",
+                "indicators": [
+                    "Must be true",
+                    "Conforms to principle",
+                    "Logically committed to"
+                ]
+            },
+            {
+                "code": "RP",
+                "name": "Resolve Paradox",
+                "family": "Fact & Puzzle",
+                "description": "Explain how two apparently conflicting facts can both be true.",
+                "indicators": [
+                    "Resolve the paradox",
+                    "Explain the discrepancy",
+                    "Reconcile"
+                ]
+            }
+        ],
+        "engine_codes": [
+            {
+                "code": "DE",
+                "name": "Deductive",
+                "description": "Formal logic, absolute rules, certain conclusion.",
+                "indicators": [
+                    "If/Then",
+                    "All/Some/Most",
+                    "Unless"
+                ]
+            },
+            {
+                "code": "CA",
+                "name": "Causal",
+                "description": "Cause-and-effect relationship.",
+                "indicators": [
+                    "Responsible for",
+                    "Due to",
+                    "Result of"
+                ]
+            },
+            {
+                "code": "AN",
+                "name": "Analogy",
+                "description": "Comparisons between two different things.",
+                "indicators": [
+                    "Similar to",
+                    "Just as",
+                    "Comparable"
+                ]
+            },
+            {
+                "code": "IN",
+                "name": "Inductive",
+                "description": "General evidence supporting a probable conclusion.",
+                "indicators": [
+                    "Survey",
+                    "Representative",
+                    "According to experts"
+                ]
+            },
+            {
+                "code": "NO",
+                "name": "No Argument",
+                "description": "Stimulus contains no argument (fact set only).",
+                "indicators": [
+                    "Fact set only"
+                ]
+            }
+        ],
+        "difficulty": [
+            {
+                "level": 1,
+                "name": "Level 1 (Warm-Up)",
+                "name_cn": "入门级",
+                "tier": "Warm-Ups",
+                "accuracy": ">75%",
+                "description": "Very Easy. Simple vocabulary; explicit conclusion.",
+                "description_cn": "非常简单。词汇基础，结论明确。"
+            },
+            {
+                "level": 2,
+                "name": "Level 2 (Easy)",
+                "name_cn": "基础级",
+                "tier": "Warm-Ups",
+                "accuracy": ">75%",
+                "description": "Easy. Standard argument structure; one clear gap.",
+                "description_cn": "简单。标准论证结构，存在单一明显逻辑漏洞。"
+            },
+            {
+                "level": 3,
+                "name": "Level 3 (Standard-Low)",
+                "name_cn": "进阶级",
+                "tier": "Warm-Ups",
+                "accuracy": ">75%",
+                "description": "Standard - Low. Correct answer fits prediction perfectly.",
+                "description_cn": "标准偏易。正确选项与预判完全吻合。"
+            },
+            {
+                "level": 4,
+                "name": "Level 4 (Standard)",
+                "name_cn": "标准级",
+                "tier": "The Grind",
+                "accuracy": "40%-75%",
+                "description": "Standard. Typical LSAT density.",
+                "description_cn": "标准。典型的 LSAT 信息密度。"
+            },
+            {
+                "level": 5,
+                "name": "Level 5 (Moderate)",
+                "name_cn": "核心级",
+                "tier": "The Grind",
+                "accuracy": "40%-75%",
+                "description": "Standard - Moderate. Shell game answers.",
+                "description_cn": "标准中等。选项包含陷阱（Shell Game）。"
+            },
+            {
+                "level": 6,
+                "name": "Level 6 (Standard-High)",
+                "name_cn": "强化级",
+                "tier": "The Grind",
+                "accuracy": "40%-75%",
+                "description": "Standard - High. Abstract language for simple concepts.",
+                "description_cn": "标准偏难。用抽象语言描述简单概念。"
+            },
+            {
+                "level": 7,
+                "name": "Level 7 (Hard)",
+                "name_cn": "挑战级",
+                "tier": "The Grind",
+                "accuracy": "40%-75%",
+                "description": "Hard. Multiple logical steps.",
+                "description_cn": "困难。涉及多步逻辑推导。"
+            },
+            {
+                "level": 8,
+                "name": "Level 8 (Very Hard)",
+                "name_cn": "专家级",
+                "tier": "The Separators",
+                "accuracy": "<40%",
+                "description": "Very Hard. Dense philosophical or scientific topic.",
+                "description_cn": "非常困难。密集哲学或科学类主题。"
+            },
+            {
+                "level": 9,
+                "name": "Level 9 (The Killer)",
+                "name_cn": "地狱级",
+                "tier": "The Separators",
+                "accuracy": "<40%",
+                "description": "The Killer. Formal logic with Most/Some quantifiers.",
+                "description_cn": "杀手级。包含 Most/Some 量词的严密形式逻辑。"
+            },
+            {
+                "level": 10,
+                "name": "Level 10 (Legendary)",
+                "name_cn": "大师级",
+                "tier": "The Separators",
+                "accuracy": "<40%",
+                "description": "Legendary. Logic turns on a single semantic shift.",
+                "description_cn": "传奇级。逻辑取决于细微的语义转变。"
+            }
+        ]
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "some": [
+        {
+            "text": "Some doctors are lawyers.",
+            "p": "Doctors",
+            "q": "Lawyers",
+            "logic": "D <--some--> L"
+        },
+        {
+            "text": "Some buildings are skyscrapers.",
+            "p": "Buildings",
+            "q": "Skyscrapers",
+            "logic": "B <--some--> S"
+        },
+        {
+            "text": "Some fruits are red.",
+            "p": "Fruits",
+            "q": "Red things",
+            "logic": "F <--some--> R"
+        },
+        {
+            "text": "At least one student obtained a perfect score.",
+            "p": "Student",
+            "q": "Obtained perfect score",
+            "logic": "S <--some--> P"
+        },
+        {
+            "text": "Some politicians are honest.",
+            "p": "Politicians",
+            "q": "Honest people",
+            "logic": "P <--some--> H"
+        },
+        {
+            "text": "Some reptiles can swim.",
+            "p": "Reptiles",
+            "q": "Can swim",
+            "logic": "R <--some--> S"
+        },
+        {
+            "text": "There are birds that cannot fly.",
+            "p": "Birds",
+            "q": "Can fly",
+            "logic": "B <--some--> ~F"
+        },
+        {
+            "text": "Some questions marked as difficult are actually easy.",
+            "p": "Questions marked difficult",
+            "q": "Easy questions",
+            "logic": "D <--some--> E"
+        },
+        {
+            "text": "Some of the cookies were eaten by the dog.",
+            "p": "Cookies",
+            "q": "Eaten by dog",
+            "logic": "C <--some--> E"
+        },
+        {
+            "text": "Some decisions are irreversible.",
+            "p": "Decisions",
+            "q": "Irreversible",
+            "logic": "D <--some--> I"
+        }
+    ],
+    "most": [
+        {
+            "text": "Most birds can fly.",
+            "p": "Birds",
+            "q": "Can fly",
+            "logic": "B --most--> F"
+        },
+        {
+            "text": "Most people like chocolate.",
+            "p": "People",
+            "q": "Like chocolate",
+            "logic": "P --most--> L"
+        },
+        {
+            "text": "The majority of voters supported the new law.",
+            "p": "Voters",
+            "q": "Supported law",
+            "logic": "V --most--> S"
+        },
+        {
+            "text": "Most startups fail within the first year.",
+            "p": "Startups",
+            "q": "Fail within first year",
+            "logic": "S --most--> F"
+        },
+        {
+            "text": "Most of the evidence points to a different suspect.",
+            "p": "Evidence",
+            "q": "Points to different suspect",
+            "logic": "E --most--> P"
+        },
+        {
+            "text": "Generally, cats are independent animals.",
+            "p": "Cats",
+            "q": "Independent animals",
+            "logic": "C --most--> I"
+        },
+        {
+            "text": "Most expensive cars are fast.",
+            "p": "Expensive cars",
+            "q": "Fast",
+            "logic": "E --most--> F"
+        },
+        {
+            "text": "Usually, hard work pays off.",
+            "p": "Hard work",
+            "q": "Pays off",
+            "logic": "H --most--> P"
+        },
+        {
+            "text": "Most integers are not prime.",
+            "p": "Integers",
+            "q": "Prime",
+            "logic": "I --most--> ~P"
+        },
+        {
+            "text": "More than half of the students passed the exam.",
+            "p": "Students",
+            "q": "Passed exam",
+            "logic": "S --most--> P"
+        }
+    ],
+    "modal": [
+        {
+            "text": "It is necessary that all triangles have three sides.",
+            "p": "Triangles have three sides",
+            "q": "Necessary",
+            "logic": "□(T -> 3S)"
+        },
+        {
+            "text": "It is possible for a human to run a mile in under 4 minutes.",
+            "p": "Human runs mile < 4 min",
+            "q": "Possible",
+            "logic": "◇(H)"
+        },
+        {
+            "text": "If it is raining, it must be cloudy.",
+            "p": "Raining",
+            "q": "Cloudy",
+            "logic": "R -> □C"
+        },
+        {
+            "text": "It is impossible for a square to be round.",
+            "p": "Square is round",
+            "q": "Impossible",
+            "logic": "~◇(S and R) or □~(S and R)"
+        },
+        {
+            "text": "You might win the lottery.",
+            "p": "Win lottery",
+            "q": "Possible",
+            "logic": "◇(W)"
+        },
+        {
+            "text": "The conclusion necessarily follows from the premises.",
+            "p": "Conclusion follows",
+            "q": "Necessary",
+            "logic": "□(P -> C)"
+        },
+        {
+            "text": "It is contingent that the sky is blue (it could have been otherwise).",
+            "p": "Sky is blue",
+            "q": "Contingent",
+            "logic": "◇(B) and ◇(~B)"
+        },
+        {
+            "text": "It could be that the suspect is innocent.",
+            "p": "Suspect innocent",
+            "q": "Possible",
+            "logic": "◇(I)"
+        },
+        {
+            "text": "A bachelor must be unmarried.",
+            "p": "Bachelor unmarried",
+            "q": "Necessary",
+            "logic": "□(B -> U)"
+        },
+        {
+            "text": "Gravity must exist for us to stay on the ground.",
+            "p": "Gravity exists",
+            "q": "Us on ground",
+            "logic": "□(G) -> O (or O -> □G depending on interpretation of 'must for')"
+        }
+    ]
+}

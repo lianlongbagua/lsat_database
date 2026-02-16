@@ -1,0 +1,2248 @@
+{
+    "translation": [
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "You cannot be president unless you are a natural born citizen.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Be president",
+            "q": "Natural born citizen"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "We won't go on the trip unless it stops raining.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Go on trip",
+            "q": "Stops raining"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "You can't make an omelet unless you break a few eggs.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Make omelet",
+            "q": "Break eggs"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "The car will not start unless you turn the key.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Car starts",
+            "q": "Turn key"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless valid evidence is presented, the theory cannot be accepted.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Theory accepted",
+            "q": "Valid evidence presented"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "The package will not be delivered unless someone is home to sign for it.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Package delivered",
+            "q": "Someone home to sign"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless you water the garden, the plants will die.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Plants survive",
+            "q": "Water garden"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Discounts are not applicable unless you are a member.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Discount applicable",
+            "q": "Member"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless the council approves the budget, the project halts.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Project continues",
+            "q": "Council approves budget"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "He will not resign unless coerced.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Resign",
+            "q": "Coerced"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Access is denied unless you have security clearance.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Access granted",
+            "q": "Have security clearance"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless we leave now, we will miss the flight.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Catch flight",
+            "q": "Leave now"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "The transformation is impossible unless the catalyst is present.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Transformation possible",
+            "q": "Catalyst present"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "You cannot pass the bar exam unless you study law.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Pass bar exam",
+            "q": "Study law"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless the market recovers, layoffs are inevitable.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Layoffs avoided",
+            "q": "Market recovers"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Peace cannot be achieved unless both sides compromise.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Peace achieved",
+            "q": "Both sides compromise"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "The software won't compile unless all errors are fixed.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Software compiles",
+            "q": "Errors fixed"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless precautions are taken, the virus will spread.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Virus contained",
+            "q": "Precautions taken"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "No refund is given unless proof of purchase is shown.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Refund given",
+            "q": "Proof of purchase shown"
+        },
+        {
+            "type": "translation",
+            "subtype": "unless",
+            "text": "Unless the dam is repaired, the village will flood.",
+            "logic": "~Q -> ~P (or P -> Q)",
+            "p": "Village safe",
+            "q": "Dam repaired"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "You will succeed only if you work hard.",
+            "logic": "P -> Q",
+            "p": "Succeed",
+            "q": "Work hard"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The plant grows only if it receives sunlight.",
+            "logic": "P -> Q",
+            "p": "Plant grows",
+            "q": "Receives sunlight"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "I will attend the party only if you come with me.",
+            "logic": "P -> Q",
+            "p": "Attend party",
+            "q": "You come with me"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "You can enter the restricted area only if you have a badge.",
+            "logic": "P -> Q",
+            "p": "Enter area",
+            "q": "Have badge"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "A number is even only if it is divisible by two.",
+            "logic": "P -> Q",
+            "p": "Number is even",
+            "q": "Divisible by two"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The contract is valid only if signed by both parties.",
+            "logic": "P -> Q",
+            "p": "Contract valid",
+            "q": "Signed by both parties"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "Birds fly only if they have wings.",
+            "logic": "P -> Q",
+            "p": "Birds fly",
+            "q": "Have wings"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "Use the emergency exit only if there is a fire.",
+            "logic": "P -> Q",
+            "p": "Use emergency exit",
+            "q": "There is a fire"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The light turns green only if the sensor detects a car.",
+            "logic": "P -> Q",
+            "p": "Light turns green",
+            "q": "Sensor detects car"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "You get dessert only if you eat your vegetables.",
+            "logic": "P -> Q",
+            "p": "Get dessert",
+            "q": "Eat vegetables"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "He performs well only if he feels confident.",
+            "logic": "P -> Q",
+            "p": "Performs well",
+            "q": "Feels confident"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The engine runs only if there is fuel.",
+            "logic": "P -> Q",
+            "p": "Engine runs",
+            "q": "There is fuel"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "We win the game only if we score now.",
+            "logic": "P -> Q",
+            "p": "Win the game",
+            "q": "Score now"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The law applies only if the crime was committed in this state.",
+            "logic": "P -> Q",
+            "p": "Law applies",
+            "q": "Crime committed in state"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "She sings only if the audience is quiet.",
+            "logic": "P -> Q",
+            "p": "She sings",
+            "q": "Audience quiet"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "Oxygen is liquid only if it is extremely cold.",
+            "logic": "P -> Q",
+            "p": "Oxygen liquid",
+            "q": "Extremely cold"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The meeting happens only if the CEO is available.",
+            "logic": "P -> Q",
+            "p": "Meeting happens",
+            "q": "CEO available"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "You are eligible only if you are over 18.",
+            "logic": "P -> Q",
+            "p": "Eligible",
+            "q": "Over 18"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "The software updates only if connected to WiFi.",
+            "logic": "P -> Q",
+            "p": "Software updates",
+            "q": "Connected to WiFi"
+        },
+        {
+            "type": "translation",
+            "subtype": "only_if",
+            "text": "Apples fall only if gravity exists.",
+            "logic": "P -> Q",
+            "p": "Apples fall",
+            "q": "Gravity exists"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If it rains, the ground gets wet.",
+            "logic": "P -> Q",
+            "p": "Rains",
+            "q": "Ground wet"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If you study, you will pass the test.",
+            "logic": "P -> Q",
+            "p": "Study",
+            "q": "Pass test"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the alarm rings, we must evacuate.",
+            "logic": "P -> Q",
+            "p": "Alarm rings",
+            "q": "Evacuate"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the temperature drops, water freezes.",
+            "logic": "P -> Q",
+            "p": "Temperature drops",
+            "q": "Water freezes"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If you break the law, you will be punished.",
+            "logic": "P -> Q",
+            "p": "Break law",
+            "q": "Punished"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If X is a square, then X is a rectangle.",
+            "logic": "P -> Q",
+            "p": "X is square",
+            "q": "X is rectangle"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If Socrates is a man, then Socrates is mortal.",
+            "logic": "P -> Q",
+            "p": "Socrates is a man",
+            "q": "Socrates is mortal"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the key fits, the door opens.",
+            "logic": "P -> Q",
+            "p": "Key fits",
+            "q": "Door opens"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If you mix blue and yellow, you get green.",
+            "logic": "P -> Q",
+            "p": "Mix blue and yellow",
+            "q": "Get green"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If there is smoke, there is fire.",
+            "logic": "P -> Q",
+            "p": "Smoke",
+            "q": "Fire"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the demand increases, the price rises.",
+            "logic": "P -> Q",
+            "p": "Demand increases",
+            "q": "Price rises"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the batter hits a home run, the crowd cheers.",
+            "logic": "P -> Q",
+            "p": "Home run",
+            "q": "Crowd cheers"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If you are a doctor, you have a medical degree.",
+            "logic": "P -> Q",
+            "p": "Doctor",
+            "q": "Medical degree"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the verdict is guilty, the defendant appeals.",
+            "logic": "P -> Q",
+            "p": "Verdict guilty",
+            "q": "Defendant appeals"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the sun sets, it gets dark.",
+            "logic": "P -> Q",
+            "p": "Sun sets",
+            "q": "It gets dark"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the premises are true, the conclusion is true.",
+            "logic": "P -> Q",
+            "p": "Premises true",
+            "q": "Conclusion true"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If you miss the bus, you will be late.",
+            "logic": "P -> Q",
+            "p": "Miss bus",
+            "q": "Be late"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the foundation is weak, the building collapses.",
+            "logic": "P -> Q",
+            "p": "Foundation weak",
+            "q": "Building collapses"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If you sign up early, you get a discount.",
+            "logic": "P -> Q",
+            "p": "Sign up early",
+            "q": "Get discount"
+        },
+        {
+            "type": "translation",
+            "subtype": "if_then",
+            "text": "If the voltage is too high, the fuse blows.",
+            "logic": "P -> Q",
+            "p": "Voltage too high",
+            "q": "Fuse blows"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All cats are mammals.",
+            "logic": "P -> Q",
+            "p": "Cat",
+            "q": "Mammal"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Every student must take the exam.",
+            "logic": "P -> Q",
+            "p": "Student",
+            "q": "Take exam"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All roads lead to Rome.",
+            "logic": "P -> Q",
+            "p": "Road",
+            "q": "Lead to Rome"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All politicians are public servants.",
+            "logic": "P -> Q",
+            "p": "Politician",
+            "q": "Public servant"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Every rose has its thorn.",
+            "logic": "P -> Q",
+            "p": "Rose",
+            "q": "Has thorn"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All valid arguments have true conclusions if their premises are true.",
+            "logic": "P -> Q",
+            "p": "Valid argument with true premises",
+            "q": "True conclusion"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Every citizen has the right to vote.",
+            "logic": "P -> Q",
+            "p": "Citizen",
+            "q": "Right to vote"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All lawyers pass the bar exam.",
+            "logic": "P -> Q",
+            "p": "Lawyer",
+            "q": "Pass bar exam"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Every living thing needs water.",
+            "logic": "P -> Q",
+            "p": "Living thing",
+            "q": "Needs water"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All prime numbers greater than 2 are odd.",
+            "logic": "P -> Q",
+            "p": "Prime > 2",
+            "q": "Odd"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Anyone who enters must pay.",
+            "logic": "P -> Q",
+            "p": "Enters",
+            "q": "Pay"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All that glitters is not gold.",
+            "logic": "P -> ~Q (Often idiomatic, but logically treated)",
+            "p": "Glitters",
+            "q": "Not gold (Careful translation)"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Everyone loves a winner.",
+            "logic": "P -> Q",
+            "p": "Person",
+            "q": "Loves a winner"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All electrons have a negative charge.",
+            "logic": "P -> Q",
+            "p": "Electron",
+            "q": "Negative charge"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Every action has an equal and opposite reaction.",
+            "logic": "P -> Q",
+            "p": "Action",
+            "q": "Equal/opposite reaction"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All triangles have three sides.",
+            "logic": "P -> Q",
+            "p": "Triangle",
+            "q": "Three sides"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Any breach of contract results in a lawsuit.",
+            "logic": "P -> Q",
+            "p": "Breach contract",
+            "q": "Lawsuit"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All birds lay eggs.",
+            "logic": "P -> Q",
+            "p": "Bird",
+            "q": "Lay eggs"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "Every cloud has a silver lining.",
+            "logic": "P -> Q",
+            "p": "Cloud",
+            "q": "Silver lining"
+        },
+        {
+            "type": "translation",
+            "subtype": "all",
+            "text": "All integers are rational numbers.",
+            "logic": "P -> Q",
+            "p": "Integer",
+            "q": "Rational number"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No dogs are cats.",
+            "logic": "P -> ~Q",
+            "p": "Dog",
+            "q": "Cat"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No one who lies is trustworthy.",
+            "logic": "P -> ~Q",
+            "p": "Lies",
+            "q": "Trustworthy"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No squares are circles.",
+            "logic": "P -> ~Q",
+            "p": "Square",
+            "q": "Circle"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No man is an island.",
+            "logic": "P -> ~Q",
+            "p": "Man",
+            "q": "Island"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No planet is a star.",
+            "logic": "P -> ~Q",
+            "p": "Planet",
+            "q": "Star"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No reptiles have fur.",
+            "logic": "P -> ~Q",
+            "p": "Reptile",
+            "q": "Has fur"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No odd number is divisible by 2.",
+            "logic": "P -> ~Q",
+            "p": "Odd number",
+            "q": "Divisible by 2"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No minors are allowed.",
+            "logic": "P -> ~Q",
+            "p": "Minor",
+            "q": "Allowed"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No good deed goes unpunished.",
+            "logic": "P -> Q (Punished)",
+            "p": "Good deed",
+            "q": "Unpunished (Careful: This effectively means P -> ~Q where Q is 'goes unpunished' or P -> Q if Q is 'punished')"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No herbivores eat meat.",
+            "logic": "P -> ~Q",
+            "p": "Herbivore",
+            "q": "Eat meat"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No one lives forever.",
+            "logic": "P -> ~Q",
+            "p": "Person",
+            "q": "Lives forever"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No smoking is permitted.",
+            "logic": "P -> ~Q",
+            "p": "Smoking",
+            "q": "Permitted"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No two snowflakes are alike.",
+            "logic": "P -> ~Q",
+            "p": "Two snowflakes",
+            "q": "Alike"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No king rules alone.",
+            "logic": "P -> ~Q",
+            "p": "King",
+            "q": "Rules alone"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No penguins can fly.",
+            "logic": "P -> ~Q",
+            "p": "Penguin",
+            "q": "Can fly"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No justice, no peace.",
+            "logic": "~P -> ~Q (If no justice, then no peace)",
+            "p": "Justice",
+            "q": "Peace"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No risk, no reward.",
+            "logic": "~P -> ~Q",
+            "p": "Risk",
+            "q": "Reward"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No vacancy available.",
+            "logic": "P -> ~Q",
+            "p": "Vacancy",
+            "q": "Available"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No parking on Sundays.",
+            "logic": "P -> ~Q",
+            "p": "Parking",
+            "q": "Allowed on Sundays"
+        },
+        {
+            "type": "translation",
+            "subtype": "no",
+            "text": "No questions asked.",
+            "logic": "P -> ~Q",
+            "p": "Questions",
+            "q": "Asked"
+        }
+    ],
+    "symbolic": [
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~J → ~Y",
+            "answer": "Y → J"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~L → ~E",
+            "answer": "E → L"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nP → E",
+            "answer": "~E → ~P"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~U → W",
+            "answer": "~W → U"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nE → ~J",
+            "answer": "J → ~E"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nI → Y",
+            "answer": "~Y → ~I"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~K → ~C",
+            "answer": "C → K"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~M → L",
+            "answer": "~L → M"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nP → ~B",
+            "answer": "B → ~P"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nV → ~C",
+            "answer": "C → ~V"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nH → L",
+            "answer": "~L → ~H"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~S → ~E",
+            "answer": "E → S"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nC → ~J",
+            "answer": "J → ~C"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~C → L",
+            "answer": "~L → C"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nQ → S",
+            "answer": "~S → ~Q"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nD → ~V",
+            "answer": "V → ~D"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~Q → B",
+            "answer": "~B → Q"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\nB → G",
+            "answer": "~G → ~B"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~W → R",
+            "answer": "~R → W"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "contrapositive",
+            "text": "Find the contrapositive of:\n~T → U",
+            "answer": "~U → T"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) L → ~F\n2) ~F → N\nInfer?",
+            "answer": "L → N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) F → Q\n2) Q → G\nInfer?",
+            "answer": "F → G"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) Q → ~U\n2) ~U → X\nInfer?",
+            "answer": "Q → X"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) X → H\n2) H → N\nInfer?",
+            "answer": "X → N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) M → T\n2) T → E\nInfer?",
+            "answer": "M → E"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) G → P\n2) P → L\nInfer?",
+            "answer": "G → L"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) B → ~T\n2) ~T → P\nInfer?",
+            "answer": "B → P"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) E → H\n2) H → P\nInfer?",
+            "answer": "E → P"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) F → ~M\n2) ~M → Q\nInfer?",
+            "answer": "F → Q"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) Z → ~D\n2) ~D → S\nInfer?",
+            "answer": "Z → S"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) G → ~H\n2) ~H → N\nInfer?",
+            "answer": "G → N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) H → ~T\n2) ~T → K\nInfer?",
+            "answer": "H → K"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) B → K\n2) K → F\nInfer?",
+            "answer": "B → F"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) T → ~J\n2) ~J → M\nInfer?",
+            "answer": "T → M"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) J → ~Q\n2) ~Q → D\nInfer?",
+            "answer": "J → D"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) R → ~W\n2) ~W → C\nInfer?",
+            "answer": "R → C"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) S → Y\n2) Y → O\nInfer?",
+            "answer": "S → O"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) B → ~X\n2) ~X → O\nInfer?",
+            "answer": "B → O"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) B → ~I\n2) ~I → E\nInfer?",
+            "answer": "B → E"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "chain",
+            "text": "Premises:\n1) B → N\n2) N → W\nInfer?",
+            "answer": "B → W"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) X → F\n2) ~F\nInfer?",
+            "answer": "~X"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) C → P\n2) ~P\nInfer?",
+            "answer": "~C"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) P → Q\n2) ~Q\nInfer?",
+            "answer": "~P"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) N → T\n2) ~T\nInfer?",
+            "answer": "~N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) F → P\n2) ~P\nInfer?",
+            "answer": "~F"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) P → O\n2) ~O\nInfer?",
+            "answer": "~P"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) W → Z\n2) ~Z\nInfer?",
+            "answer": "~W"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) N → S\n2) ~S\nInfer?",
+            "answer": "~N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) Z → T\n2) ~T\nInfer?",
+            "answer": "~Z"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) R → O\n2) ~O\nInfer?",
+            "answer": "~R"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) T → P\n2) ~P\nInfer?",
+            "answer": "~T"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) L → V\n2) ~V\nInfer?",
+            "answer": "~L"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) J → B\n2) ~B\nInfer?",
+            "answer": "~J"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) Y → H\n2) ~H\nInfer?",
+            "answer": "~Y"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) M → L\n2) ~L\nInfer?",
+            "answer": "~M"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) K → N\n2) ~N\nInfer?",
+            "answer": "~K"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) M → X\n2) ~X\nInfer?",
+            "answer": "~M"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) B → Y\n2) ~Y\nInfer?",
+            "answer": "~B"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) L → J\n2) ~J\nInfer?",
+            "answer": "~L"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modus_tollens",
+            "text": "Premises:\n1) H → R\n2) ~R\nInfer?",
+            "answer": "~H"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) U ∨ T\n2) ~U\nInfer?",
+            "answer": "T"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) Q ∨ N\n2) ~Q\nInfer?",
+            "answer": "N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) B ∨ H\n2) ~B\nInfer?",
+            "answer": "H"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) J ∨ W\n2) ~J\nInfer?",
+            "answer": "W"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) B ∨ V\n2) ~B\nInfer?",
+            "answer": "V"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) T ∨ E\n2) ~T\nInfer?",
+            "answer": "E"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) P ∨ C\n2) ~P\nInfer?",
+            "answer": "C"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) D ∨ F\n2) ~D\nInfer?",
+            "answer": "F"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) U ∨ V\n2) ~U\nInfer?",
+            "answer": "V"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) V ∨ N\n2) ~V\nInfer?",
+            "answer": "N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) R ∨ D\n2) ~R\nInfer?",
+            "answer": "D"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) E ∨ D\n2) ~E\nInfer?",
+            "answer": "D"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) Y ∨ R\n2) ~Y\nInfer?",
+            "answer": "R"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) O ∨ V\n2) ~O\nInfer?",
+            "answer": "V"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) K ∨ U\n2) ~K\nInfer?",
+            "answer": "U"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) O ∨ E\n2) ~O\nInfer?",
+            "answer": "E"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) I ∨ Y\n2) ~I\nInfer?",
+            "answer": "Y"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) C ∨ A\n2) ~C\nInfer?",
+            "answer": "A"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) E ∨ N\n2) ~E\nInfer?",
+            "answer": "N"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "disjunctive_syllogism",
+            "text": "Premises:\n1) W ∨ K\n2) ~W\nInfer?",
+            "answer": "K"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nH ↔ B",
+            "answer": "(H → B) ∧ (B → H)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nT ↔ H",
+            "answer": "(T → H) ∧ (H → T)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nY ↔ D",
+            "answer": "(Y → D) ∧ (D → Y)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nF ↔ S",
+            "answer": "(F → S) ∧ (S → F)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nF ↔ B",
+            "answer": "(F → B) ∧ (B → F)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nA ↔ N",
+            "answer": "(A → N) ∧ (N → A)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nC ↔ Y",
+            "answer": "(C → Y) ∧ (Y → C)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nW ↔ A",
+            "answer": "(W → A) ∧ (A → W)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nX ↔ P",
+            "answer": "(X → P) ∧ (P → X)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nD ↔ U",
+            "answer": "(D → U) ∧ (U → D)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nL ↔ U",
+            "answer": "(L → U) ∧ (U → L)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nJ ↔ I",
+            "answer": "(J → I) ∧ (I → J)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nY ↔ U",
+            "answer": "(Y → U) ∧ (U → Y)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nC ↔ S",
+            "answer": "(C → S) ∧ (S → C)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nX ↔ P",
+            "answer": "(X → P) ∧ (P → X)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nK ↔ Q",
+            "answer": "(K → Q) ∧ (Q → K)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nX ↔ Q",
+            "answer": "(X → Q) ∧ (Q → X)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nY ↔ F",
+            "answer": "(Y → F) ∧ (F → Y)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nS ↔ C",
+            "answer": "(S → C) ∧ (C → S)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "biconditional",
+            "text": "Translate to conditionals:\nZ ↔ G",
+            "answer": "(Z → G) ∧ (G → Z)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Ox → Bx)\n2) ∀x(Bx → Sx)\nInfer?",
+            "answer": "∀x(Ox → Sx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Hx → Zx)\n2) ∀x(Zx → Jx)\nInfer?",
+            "answer": "∀x(Hx → Jx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Gx → Px)\n2) ∀x(Px → Mx)\nInfer?",
+            "answer": "∀x(Gx → Mx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Ex → Dx)\n2) ∀x(Dx → Yx)\nInfer?",
+            "answer": "∀x(Ex → Yx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Hx → Nx)\n2) ∀x(Nx → Px)\nInfer?",
+            "answer": "∀x(Hx → Px)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Qx → Zx)\n2) ∀x(Zx → Tx)\nInfer?",
+            "answer": "∀x(Qx → Tx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Ix → Rx)\n2) ∀x(Rx → Jx)\nInfer?",
+            "answer": "∀x(Ix → Jx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Zx → Jx)\n2) ∀x(Jx → Ex)\nInfer?",
+            "answer": "∀x(Zx → Ex)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Fx → Rx)\n2) ∀x(Rx → Vx)\nInfer?",
+            "answer": "∀x(Fx → Vx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Fx → Qx)\n2) ∀x(Qx → Zx)\nInfer?",
+            "answer": "∀x(Fx → Zx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Fx → Bx)\n2) ∀x(Bx → Ox)\nInfer?",
+            "answer": "∀x(Fx → Ox)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Qx → Fx)\n2) ∀x(Fx → Hx)\nInfer?",
+            "answer": "∀x(Qx → Hx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Ox → Tx)\n2) ∀x(Tx → Ix)\nInfer?",
+            "answer": "∀x(Ox → Ix)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Fx → Yx)\n2) ∀x(Yx → Cx)\nInfer?",
+            "answer": "∀x(Fx → Cx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Nx → Zx)\n2) ∀x(Zx → Lx)\nInfer?",
+            "answer": "∀x(Nx → Lx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Hx → Ux)\n2) ∀x(Ux → Wx)\nInfer?",
+            "answer": "∀x(Hx → Wx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Qx → Nx)\n2) ∀x(Nx → Lx)\nInfer?",
+            "answer": "∀x(Qx → Lx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Jx → Gx)\n2) ∀x(Gx → Lx)\nInfer?",
+            "answer": "∀x(Jx → Lx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Qx → Kx)\n2) ∀x(Kx → Gx)\nInfer?",
+            "answer": "∀x(Qx → Gx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "quantifier",
+            "text": "Premises:\n1) ∀x(Ax → Rx)\n2) ∀x(Rx → Hx)\nInfer?",
+            "answer": "∀x(Ax → Hx)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(R → U)",
+            "answer": "◇(R ∧ ~U)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(W → A)",
+            "answer": "◇(W ∧ ~A)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(X → I)",
+            "answer": "◇(X ∧ ~I)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(F → L)",
+            "answer": "◇(F ∧ ~L)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that R",
+            "answer": "~◇R  (or □~R)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(H → O)",
+            "answer": "◇(H ∧ ~O)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(Y → B)",
+            "answer": "◇(Y ∧ ~B)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(C → Z)",
+            "answer": "◇(C ∧ ~Z)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(J → X)",
+            "answer": "◇(J ∧ ~X)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that T",
+            "answer": "~◇T  (or □~T)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that U",
+            "answer": "~◇U  (or □~U)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that H",
+            "answer": "~◇H  (or □~H)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that E",
+            "answer": "~◇E  (or □~E)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(L → O)",
+            "answer": "◇(L ∧ ~O)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that L",
+            "answer": "~◇L  (or □~L)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Negate: □(G → U)",
+            "answer": "◇(G ∧ ~U)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that X",
+            "answer": "~◇X  (or □~X)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that M",
+            "answer": "~◇M  (or □~M)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that R",
+            "answer": "~◇R  (or □~R)"
+        },
+        {
+            "type": "symbolic",
+            "subtype": "modal",
+            "text": "Translate: It is impossible that U",
+            "answer": "~◇U  (or □~U)"
+        }
+    ],
+    "negation": [
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All federal judges are appointed for life.",
+            "answer": "Some federal judges are NOT appointed for life."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All criminals are punished.",
+            "answer": "Some criminals are NOT punished."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All contracts are valid.",
+            "answer": "Some contracts are NOT valid."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All doctors are licensed.",
+            "answer": "Some doctors are NOT licensed."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All politicians are elected.",
+            "answer": "Some politicians are NOT elected."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All mammals are warm-blooded.",
+            "answer": "Some mammals are NOT warm-blooded."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All prime numbers are odd.",
+            "answer": "Some prime numbers are NOT odd."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All squares are rectangles.",
+            "answer": "Some squares are NOT rectangles."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All birds are capable of flight.",
+            "answer": "Some birds are NOT capable of flight."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All witnesses are truthful.",
+            "answer": "Some witnesses are NOT truthful."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All investments are profitable.",
+            "answer": "Some investments are NOT profitable."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All laws are enforceable.",
+            "answer": "Some laws are NOT enforceable."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All theories are falsifiable.",
+            "answer": "Some theories are NOT falsifiable."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All employees are paid.",
+            "answer": "Some employees are NOT paid."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All students are enrolled.",
+            "answer": "Some students are NOT enrolled."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All vehicles are registered.",
+            "answer": "Some vehicles are NOT registered."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All apples are red.",
+            "answer": "Some apples are NOT red."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All errors are corrected.",
+            "answer": "Some errors are NOT corrected."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All meetings are mandatory.",
+            "answer": "Some meetings are NOT mandatory."
+        },
+        {
+            "type": "negation",
+            "subtype": "all",
+            "text": "Negate: All decisions are final.",
+            "answer": "Some decisions are NOT final."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No cats are dogs.",
+            "answer": "Some cats ARE dogs."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No circles are squares.",
+            "answer": "Some circles ARE squares."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No lies are justified.",
+            "answer": "Some lies ARE justified."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No planets are stars.",
+            "answer": "Some planets ARE stars."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No defendants are guilty before trial.",
+            "answer": "Some defendants ARE guilty before trial."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No minors are allowed to vote.",
+            "answer": "Some minors ARE allowed to vote."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No contracts are verbal.",
+            "answer": "Some contracts ARE verbal."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No exhibits are fabricated.",
+            "answer": "Some exhibits ARE fabricated."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No politicians are honest.",
+            "answer": "Some politicians ARE honest."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No prices are negotiable.",
+            "answer": "Some prices ARE negotiable."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No refunds are allowed.",
+            "answer": "Some refunds ARE allowed."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No employees are exempt.",
+            "answer": "Some employees ARE exempt."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No taxes are optional.",
+            "answer": "Some taxes ARE optional."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No files are corrupted.",
+            "answer": "Some files ARE corrupted."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No members are admitted.",
+            "answer": "Some members ARE admitted."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No triangles are four-sided.",
+            "answer": "Some triangles ARE four-sided."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No bachelors are married.",
+            "answer": "Some bachelors ARE married."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No results are inconclusive.",
+            "answer": "Some results ARE inconclusive."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No signals are lost.",
+            "answer": "Some signals ARE lost."
+        },
+        {
+            "type": "negation",
+            "subtype": "no",
+            "text": "Negate: No opportunities are missed.",
+            "answer": "Some opportunities ARE missed."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some houses are expensive.",
+            "answer": "No houses are expensive."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some cars are electric.",
+            "answer": "No cars are electric."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some people are left-handed.",
+            "answer": "No people are left-handed."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some days are cloudy.",
+            "answer": "No days are cloudy."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some results are accurate.",
+            "answer": "No results are accurate."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some witnesses are reliable.",
+            "answer": "No witnesses are reliable."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some claims are verified.",
+            "answer": "No claims are verified."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some studies are peer-reviewed.",
+            "answer": "No studies are peer-reviewed."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some negotiations are successful.",
+            "answer": "No negotiations are successful."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some products are defective.",
+            "answer": "No products are defective."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some lawyers are wealthy.",
+            "answer": "No lawyers are wealthy."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some paintings are valuable.",
+            "answer": "No paintings are valuable."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some songs are popular.",
+            "answer": "No songs are popular."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some ideas are innovative.",
+            "answer": "No ideas are innovative."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some risks are calculable.",
+            "answer": "No risks are calculable."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some debts are forgiven.",
+            "answer": "No debts are forgiven."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some messages are read.",
+            "answer": "No messages are read."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some flights are delayed.",
+            "answer": "No flights are delayed."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some books are bestsellers.",
+            "answer": "No books are bestsellers."
+        },
+        {
+            "type": "negation",
+            "subtype": "some",
+            "text": "Negate: Some games are won.",
+            "answer": "No games are won."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most voters are decided.",
+            "answer": "Half or fewer voters are decided."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most students are prepared.",
+            "answer": "Half or fewer students are prepared."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most businesses are small.",
+            "answer": "Half or fewer businesses are small."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most cities are polluted.",
+            "answer": "Half or fewer cities are polluted."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most diets are healthy.",
+            "answer": "Half or fewer diets are healthy."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most investments are safe.",
+            "answer": "Half or fewer investments are safe."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most applications are bug-free.",
+            "answer": "Half or fewer applications are bug-free."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most arguments are valid.",
+            "answer": "Half or fewer arguments are valid."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most politicians are ambitious.",
+            "answer": "Half or fewer politicians are ambitious."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most athletes are fit.",
+            "answer": "Half or fewer athletes are fit."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most movies are entertaining.",
+            "answer": "Half or fewer movies are entertaining."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most critics are harsh.",
+            "answer": "Half or fewer critics are harsh."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most solutions are complex.",
+            "answer": "Half or fewer solutions are complex."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most trends are temporary.",
+            "answer": "Half or fewer trends are temporary."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most workers are satisfied.",
+            "answer": "Half or fewer workers are satisfied."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most clients are happy.",
+            "answer": "Half or fewer clients are happy."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most prices are stable.",
+            "answer": "Half or fewer prices are stable."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most rules are strict.",
+            "answer": "Half or fewer rules are strict."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most winters are cold.",
+            "answer": "Half or fewer winters are cold."
+        },
+        {
+            "type": "negation",
+            "subtype": "most",
+            "text": "Negate: Most friends are loyal.",
+            "answer": "Half or fewer friends are loyal."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If it rains, then the ground gets wet.",
+            "answer": "Even if it rains, it is NOT necessarily true that the ground gets wet (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If you study, then you pass.",
+            "answer": "Even if you study, it is NOT necessarily true that you pass (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If you eat, then you are full.",
+            "answer": "Even if you eat, it is NOT necessarily true that you are full (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If it snows, then school is closed.",
+            "answer": "Even if it snows, it is NOT necessarily true that school is closed (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If the alarm rings, then we leave.",
+            "answer": "Even if the alarm rings, it is NOT necessarily true that we leave (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If price drops, then demand increases.",
+            "answer": "Even if price drops, it is NOT necessarily true that demand increases (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If crime occurs, then police investigate.",
+            "answer": "Even if crime occurs, it is NOT necessarily true that police investigate (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If contract is signed, then deal is closed.",
+            "answer": "Even if contract is signed, it is NOT necessarily true that deal is closed (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If you apologize, then I forgive you.",
+            "answer": "Even if you apologize, it is NOT necessarily true that I forgive you (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If lights go out, then fuse is blown.",
+            "answer": "Even if lights go out, it is NOT necessarily true that fuse is blown (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If team wins, then fans cheer.",
+            "answer": "Even if team wins, it is NOT necessarily true that fans cheer (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If sun sets, then it gets dark.",
+            "answer": "Even if sun sets, it is NOT necessarily true that it gets dark (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If battery dies, then phone turns off.",
+            "answer": "Even if battery dies, it is NOT necessarily true that phone turns off (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If law passes, then taxes rise.",
+            "answer": "Even if law passes, it is NOT necessarily true that taxes rise (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If stock crashes, then investors panic.",
+            "answer": "Even if stock crashes, it is NOT necessarily true that investors panic (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If joke is funny, then people laugh.",
+            "answer": "Even if joke is funny, it is NOT necessarily true that people laugh (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If door is locked, then key is needed.",
+            "answer": "Even if door is locked, it is NOT necessarily true that key is needed (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If virus spreads, then quarantine begins.",
+            "answer": "Even if virus spreads, it is NOT necessarily true that quarantine begins (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If water boils, then steam rises.",
+            "answer": "Even if water boils, it is NOT necessarily true that steam rises (Counterexample)."
+        },
+        {
+            "type": "negation",
+            "subtype": "conditional",
+            "text": "Negate: If mirror breaks, then bad luck follows.",
+            "answer": "Even if mirror breaks, it is NOT necessarily true that bad luck follows (Counterexample)."
+        }
+    ]
+}

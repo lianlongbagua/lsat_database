@@ -1,0 +1,612 @@
+{
+    "unless": [
+        {
+            "text": "You cannot be president unless you are a natural born citizen.",
+            "p": "Be president",
+            "q": "Natural born citizen",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "We won't go on the trip unless it stops raining.",
+            "p": "Go on trip",
+            "q": "Stops raining",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "You can't make an omelet unless you break a few eggs.",
+            "p": "Make omelet",
+            "q": "Break eggs",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "The car will not start unless you turn the key.",
+            "p": "Car starts",
+            "q": "Turn key",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless valid evidence is presented, the theory cannot be accepted.",
+            "p": "Theory accepted",
+            "q": "Valid evidence presented",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "The package will not be delivered unless someone is home to sign for it.",
+            "p": "Package delivered",
+            "q": "Someone home to sign",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless you water the garden, the plants will die.",
+            "p": "Plants survive",
+            "q": "Water garden",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Discounts are not applicable unless you are a member.",
+            "p": "Discount applicable",
+            "q": "Member",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless the council approves the budget, the project halts.",
+            "p": "Project continues",
+            "q": "Council approves budget",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "He will not resign unless coerced.",
+            "p": "Resign",
+            "q": "Coerced",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Access is denied unless you have security clearance.",
+            "p": "Access granted",
+            "q": "Have security clearance",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless we leave now, we will miss the flight.",
+            "p": "Catch flight",
+            "q": "Leave now",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "The transformation is impossible unless the catalyst is present.",
+            "p": "Transformation possible",
+            "q": "Catalyst present",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "You cannot pass the bar exam unless you study law.",
+            "p": "Pass bar exam",
+            "q": "Study law",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless the market recovers, layoffs are inevitable.",
+            "p": "Layoffs avoided",
+            "q": "Market recovers",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Peace cannot be achieved unless both sides compromise.",
+            "p": "Peace achieved",
+            "q": "Both sides compromise",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "The software won't compile unless all errors are fixed.",
+            "p": "Software compiles",
+            "q": "Errors fixed",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless precautions are taken, the virus will spread.",
+            "p": "Virus contained",
+            "q": "Precautions taken",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "No refund is given unless proof of purchase is shown.",
+            "p": "Refund given",
+            "q": "Proof of purchase shown",
+            "logic": "~Q -> ~P (or P -> Q)"
+        },
+        {
+            "text": "Unless the dam is repaired, the village will flood.",
+            "p": "Village safe",
+            "q": "Dam repaired",
+            "logic": "~Q -> ~P (or P -> Q)"
+        }
+    ],
+    "only_if": [
+        {
+            "text": "You will succeed only if you work hard.",
+            "p": "Succeed",
+            "q": "Work hard",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The plant grows only if it receives sunlight.",
+            "p": "Plant grows",
+            "q": "Receives sunlight",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "I will attend the party only if you come with me.",
+            "p": "Attend party",
+            "q": "You come with me",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "You can enter the restricted area only if you have a badge.",
+            "p": "Enter area",
+            "q": "Have badge",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "A number is even only if it is divisible by two.",
+            "p": "Number is even",
+            "q": "Divisible by two",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The contract is valid only if signed by both parties.",
+            "p": "Contract valid",
+            "q": "Signed by both parties",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Birds fly only if they have wings.",
+            "p": "Birds fly",
+            "q": "Have wings",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Use the emergency exit only if there is a fire.",
+            "p": "Use emergency exit",
+            "q": "There is a fire",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The light turns green only if the sensor detects a car.",
+            "p": "Light turns green",
+            "q": "Sensor detects car",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "You get dessert only if you eat your vegetables.",
+            "p": "Get dessert",
+            "q": "Eat vegetables",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "He performs well only if he feels confident.",
+            "p": "Performs well",
+            "q": "Feels confident",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The engine runs only if there is fuel.",
+            "p": "Engine runs",
+            "q": "There is fuel",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "We win the game only if we score now.",
+            "p": "Win the game",
+            "q": "Score now",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The law applies only if the crime was committed in this state.",
+            "p": "Law applies",
+            "q": "Crime committed in state",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "She sings only if the audience is quiet.",
+            "p": "She sings",
+            "q": "Audience quiet",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Oxygen is liquid only if it is extremely cold.",
+            "p": "Oxygen liquid",
+            "q": "Extremely cold",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The meeting happens only if the CEO is available.",
+            "p": "Meeting happens",
+            "q": "CEO available",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "You are eligible only if you are over 18.",
+            "p": "Eligible",
+            "q": "Over 18",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "The software updates only if connected to WiFi.",
+            "p": "Software updates",
+            "q": "Connected to WiFi",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Apples fall only if gravity exists.",
+            "p": "Apples fall",
+            "q": "Gravity exists",
+            "logic": "P -> Q"
+        }
+    ],
+    "if_then": [
+        {
+            "text": "If it rains, the ground gets wet.",
+            "p": "Rains",
+            "q": "Ground wet",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If you study, you will pass the test.",
+            "p": "Study",
+            "q": "Pass test",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the alarm rings, we must evacuate.",
+            "p": "Alarm rings",
+            "q": "Evacuate",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the temperature drops, water freezes.",
+            "p": "Temperature drops",
+            "q": "Water freezes",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If you break the law, you will be punished.",
+            "p": "Break law",
+            "q": "Punished",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If X is a square, then X is a rectangle.",
+            "p": "X is square",
+            "q": "X is rectangle",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If Socrates is a man, then Socrates is mortal.",
+            "p": "Socrates is a man",
+            "q": "Socrates is mortal",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the key fits, the door opens.",
+            "p": "Key fits",
+            "q": "Door opens",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If you mix blue and yellow, you get green.",
+            "p": "Mix blue and yellow",
+            "q": "Get green",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If there is smoke, there is fire.",
+            "p": "Smoke",
+            "q": "Fire",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the demand increases, the price rises.",
+            "p": "Demand increases",
+            "q": "Price rises",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the batter hits a home run, the crowd cheers.",
+            "p": "Home run",
+            "q": "Crowd cheers",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If you are a doctor, you have a medical degree.",
+            "p": "Doctor",
+            "q": "Medical degree",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the verdict is guilty, the defendant appeals.",
+            "p": "Verdict guilty",
+            "q": "Defendant appeals",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the sun sets, it gets dark.",
+            "p": "Sun sets",
+            "q": "It gets dark",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the premises are true, the conclusion is true.",
+            "p": "Premises true",
+            "q": "Conclusion true",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If you miss the bus, you will be late.",
+            "p": "Miss bus",
+            "q": "Be late",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the foundation is weak, the building collapses.",
+            "p": "Foundation weak",
+            "q": "Building collapses",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If you sign up early, you get a discount.",
+            "p": "Sign up early",
+            "q": "Get discount",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "If the voltage is too high, the fuse blows.",
+            "p": "Voltage too high",
+            "q": "Fuse blows",
+            "logic": "P -> Q"
+        }
+    ],
+    "all": [
+        {
+            "text": "All cats are mammals.",
+            "p": "Cat",
+            "q": "Mammal",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Every student must take the exam.",
+            "p": "Student",
+            "q": "Take exam",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All roads lead to Rome.",
+            "p": "Road",
+            "q": "Lead to Rome",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All politicians are public servants.",
+            "p": "Politician",
+            "q": "Public servant",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Every rose has its thorn.",
+            "p": "Rose",
+            "q": "Has thorn",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All valid arguments have true conclusions if their premises are true.",
+            "p": "Valid argument with true premises",
+            "q": "True conclusion",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Every citizen has the right to vote.",
+            "p": "Citizen",
+            "q": "Right to vote",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All lawyers pass the bar exam.",
+            "p": "Lawyer",
+            "q": "Pass bar exam",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Every living thing needs water.",
+            "p": "Living thing",
+            "q": "Needs water",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All prime numbers greater than 2 are odd.",
+            "p": "Prime > 2",
+            "q": "Odd",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Anyone who enters must pay.",
+            "p": "Enters",
+            "q": "Pay",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All that glitters is not gold.",
+            "p": "Glitters",
+            "q": "Not gold (Careful translation)",
+            "logic": "P -> ~Q (Often idiomatic, but logically treated)"
+        },
+        {
+            "text": "Everyone loves a winner.",
+            "p": "Person",
+            "q": "Loves a winner",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All electrons have a negative charge.",
+            "p": "Electron",
+            "q": "Negative charge",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Every action has an equal and opposite reaction.",
+            "p": "Action",
+            "q": "Equal/opposite reaction",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All triangles have three sides.",
+            "p": "Triangle",
+            "q": "Three sides",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Any breach of contract results in a lawsuit.",
+            "p": "Breach contract",
+            "q": "Lawsuit",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All birds lay eggs.",
+            "p": "Bird",
+            "q": "Lay eggs",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "Every cloud has a silver lining.",
+            "p": "Cloud",
+            "q": "Silver lining",
+            "logic": "P -> Q"
+        },
+        {
+            "text": "All integers are rational numbers.",
+            "p": "Integer",
+            "q": "Rational number",
+            "logic": "P -> Q"
+        }
+    ],
+    "no": [
+        {
+            "text": "No dogs are cats.",
+            "p": "Dog",
+            "q": "Cat",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No one who lies is trustworthy.",
+            "p": "Lies",
+            "q": "Trustworthy",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No squares are circles.",
+            "p": "Square",
+            "q": "Circle",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No man is an island.",
+            "p": "Man",
+            "q": "Island",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No planet is a star.",
+            "p": "Planet",
+            "q": "Star",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No reptiles have fur.",
+            "p": "Reptile",
+            "q": "Has fur",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No odd number is divisible by 2.",
+            "p": "Odd number",
+            "q": "Divisible by 2",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No minors are allowed.",
+            "p": "Minor",
+            "q": "Allowed",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No good deed goes unpunished.",
+            "p": "Good deed",
+            "q": "Unpunished (Careful: This effectively means P -> ~Q where Q is 'goes unpunished' or P -> Q if Q is 'punished')",
+            "logic": "P -> Q (Punished)"
+        },
+        {
+            "text": "No herbivores eat meat.",
+            "p": "Herbivore",
+            "q": "Eat meat",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No one lives forever.",
+            "p": "Person",
+            "q": "Lives forever",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No smoking is permitted.",
+            "p": "Smoking",
+            "q": "Permitted",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No two snowflakes are alike.",
+            "p": "Two snowflakes",
+            "q": "Alike",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No king rules alone.",
+            "p": "King",
+            "q": "Rules alone",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No penguins can fly.",
+            "p": "Penguin",
+            "q": "Can fly",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No justice, no peace.",
+            "p": "Justice",
+            "q": "Peace",
+            "logic": "~P -> ~Q (If no justice, then no peace)"
+        },
+        {
+            "text": "No risk, no reward.",
+            "p": "Risk",
+            "q": "Reward",
+            "logic": "~P -> ~Q"
+        },
+        {
+            "text": "No vacancy available.",
+            "p": "Vacancy",
+            "q": "Available",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No parking on Sundays.",
+            "p": "Parking",
+            "q": "Allowed on Sundays",
+            "logic": "P -> ~Q"
+        },
+        {
+            "text": "No questions asked.",
+            "p": "Questions",
+            "q": "Asked",
+            "logic": "P -> ~Q"
+        }
+    ]
+}
